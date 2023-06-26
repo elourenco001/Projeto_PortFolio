@@ -45,9 +45,7 @@
     }
 
     .jl-menu{
-        display:none;
-
-
+        
     }
 
 }
@@ -61,29 +59,6 @@
 }
 
 @media screen and (min-width: 992px){
-    .jl-menu{
-        display: table;
-        float: left;
-        height: 110px;
-        margin-left: 30px;
-
-    }
-
-    .jl-menu a{
-        font-family: 'Open Sans';
-        font-size: 16px;
-        color: #bcbcbc;
-        text-decoration: none;
-        text-transform: lowercase;
-        display: inline-block;
-        padding: 0 20px;
-        margin-top: 50px;
-
-    }
-
-    .jl-menu a:first-child{
-        padding-left: 0;
-    }
     
 }
 

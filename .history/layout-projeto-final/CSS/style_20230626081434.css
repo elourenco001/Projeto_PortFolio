@@ -65,6 +65,7 @@
         display: table;
         float: left;
         height: 110px;
+        background-color: red;
         margin-left: 30px;
 
     }
@@ -75,14 +76,7 @@
         color: #bcbcbc;
         text-decoration: none;
         text-transform: lowercase;
-        display: inline-block;
-        padding: 0 20px;
-        margin-top: 50px;
 
-    }
-
-    .jl-menu a:first-child{
-        padding-left: 0;
     }
     
 }
