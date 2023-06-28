@@ -110,9 +110,6 @@
         z-index: 200;
 
     }
-    .jl-btn-contact:hover{
-        background-position-y: -45px;
-    }
 
 }
 @media screen and (min-width: 1200px){

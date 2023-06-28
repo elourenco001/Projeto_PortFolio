@@ -87,31 +87,10 @@
         left: 0;
         transition: all 0.2s ease-out;
         transform: scale(0 , 1);
-        transform-origin: center left;
 
     }
     .jl-menu a:hover:before{
-        transform: scale(1 , 1 );
-    }
-    .jl-contact-info{
-
-    }
-    .jl-btn-contact{
-        width: 45px;
-        height: 45px;
-        display: block;
-        background-color: #2ccb69;
-        background-image: url('../imagens/icon-contact-close.svg');
-        background-repeat: no-repeat;
-        position: fixed;
-        bottom: 45px;
-        right: 45px;
-        border-radius: 50%;
-        z-index: 200;
-
-    }
-    .jl-btn-contact:hover{
-        background-position-y: -45px;
+        
     }
 
 }
