@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased ;
+    -moz-osx-font-smoothing: grayscale;
 
+}
+p{
+   font-family: 'Open Sans' serif; 
 }
 
 @media screen and (min-width: 320px) {
@@ -43,6 +48,62 @@
     .jl-menu{
         display: none;
     }
+    .jl-contact-info{
+        width: 245px;
+        height: 165px;
+        padding: 25px;
+        position: fixed;
+        bottom:115px ;
+        right: 65px;
+        z-index: 200;
+
+    }
+    .jl-contact-info p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .jl-social-links{
+        width: 100%;
+        height: 45px;
+        display: block;
+        position: relative;
+        left: -12px;
+        margin-top: 7px;
+
+    }
+    .jl-social{
+        width: 45px;
+        height: 45px;
+        display: inline-block;
+        
+
+    }
+    .jl-social > img{
+        width: 20x;
+        height: 20px;
+        display: block;
+        margin: 12px auto 0;
+
+    }
+    .jl-corner{
+        width: 25px;
+        height: 25px;
+        display: block;
+        float: right;
+        display: relative;
+    }
+    .jl-corner::after{
+        content: '';
+        width: 25px;
+        height: 25px;
+        display: block;
+        position: absolute;
+        bottom: -23px;
+        right: 0;
+        background: transparent url('../imagens/corner.svg') no-repeat;
+    }
+
 
 }
 @media screen and (min-width: 576px){
@@ -112,6 +173,16 @@
     .jl-btn-contact:hover{
         background-position-y: -45px;
     }
+    .jl-contact-info{
+        width: 245px;
+        height: 165px;
+        padding: 25px;
+        position: fixed;
+        bottom:115px ;
+        right: 65px;
+        z-index: 200;
+
+    }
 
 }
 @media screen and (min-width: 1200px){
@@ -125,29 +196,33 @@
 }
 
 /* CLASSES UTILITARIAS */
+.jl-title{
+    font-family:'Abril Fatface', serif;
+    font-weight: normal;
+}
 
-.jl.text-green{
+.jl-text-green{
 color:#2ccb69;
 }
-.jl.text-dark{
+.jl-text-dark{
 color:#1c1c1c;
 }
-.jl.text-light{
+.jl-text-light{
 color:#bcbcbc;
 }
-.jl.text-black{
+.jl-text-black{
 color:#000;
 }
-.jl.bg-green{
+.jl-bg-green{
 background-color:#2ccb69;
 }
-.jl.bg-dark{
+.jl-bg-dark{
 background-color:#1c1c1c;
 }
-.jl.bg-light{
+.jl-bg-light{
 background-color:#bcbcbc;
 }
-.jl.bg-black{
+.jl-bg-black{
 background-color:#000;
 }
 
